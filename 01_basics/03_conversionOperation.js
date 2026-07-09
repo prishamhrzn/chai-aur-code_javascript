@@ -68,3 +68,49 @@ console.log(ValueinNumber)
 //null => 0
 //true => 1; false => 0
 //undefined => NaN
+
+// *************** Operations ************** 
+let value = 3
+let negvalue = -value
+ console.log(negvalue);
+
+console.log(2 + 2)
+ console.log(2 - 2)
+ console.log(2*2)
+ console.log(2 ** 3)
+ console.log( 3/ 6)
+ console.log(3 % 6)
+
+let str1 = "hello";
+let str2 = " world";
+
+let str3 = str1 + str2;
+ console.log(str3)
+
+ console.log("1" +  3)
+ console.log(2 + "1")
+ console.log("1" + 4 + 3)
+ console.log(3 + 4 + "2")
+console.log(1 + 4 * 2 % 6)  
+// //Don't write the code like this. This is messy
+
+console.log(true)
+console.log(+true) //Output 1
+// console.log(true+) //error
+console.log(+"")  //output 0
+
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2
+
+// Postfix
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
+
+// Prefix
+let gameCount = 100;
+++gameCount;
+console.log(gameCount);
+
+

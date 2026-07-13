@@ -62,3 +62,6 @@ console.log(typeof score);
 
 console.log(typeof myFunction)
 //fuction auxa tara vanda chai "Object Function"
+console.log(typeof car)
+console.log(typeof mydata);
+console.log(typeof BigNumber)
